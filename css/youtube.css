@@ -1,0 +1,21 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.vid-container{
+    position:relative;
+    min-height: 100vh;
+    background: black;
+}
+
+.Pilot-vid{
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.Pilot-vid iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
